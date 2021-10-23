@@ -1,0 +1,13 @@
+{
+  "serviceName": "bff-ms",
+  "port": 80,
+  "amqp": {
+    "uri": "amqp://guest:guest@localhost:5672"
+  },
+  "clients": {
+    "user": "http://localhost:3000",
+    "wallet": "http://localhost:3001",
+    "transactions": "http://localhost:3002",
+    "auth": "http://localhost:8080"
+  }
+}
